@@ -13,8 +13,8 @@ resource_group = {
 }
 
 storage_accounts = {
-  stazuredevopspulse-01 = {
-    name             = "stazuredevopspulse01"
+  stazuredevops01 = {
+    name             = "stazuredevops01"
     tier             = "Standard"
     replication_type = "LRS"
     enable_failover  = false
@@ -24,8 +24,8 @@ storage_accounts = {
       { name = "logs" }
     ]
   },
-  stazuredevopspulse-02 = { 
-    name             = "stazuredevopspulse02"
+  stazuredevops02 = { 
+    name             = "stazuredevops02"
     tier             = "Premium"
     replication_type = "ZRS"
     enable_failover  = true
